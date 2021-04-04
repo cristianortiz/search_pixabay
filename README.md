@@ -1,6 +1,6 @@
 # Search images from Pixabay API in React
 
-## Small projects, connects to Pixabay API and retrived images according to search terms inputs by the user, then format and paginate those results
+## Small project, connects to Pixabay API and retrived images according to search terms inputs by the user, then format and paginate those results
 
 ## Highlights
 
