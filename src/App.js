@@ -19,7 +19,7 @@ function App() {
       if (search === "") return;
 
       const imagesPerPage = 30;
-      const apiKey = "20994253-cfab3841d57db0be19a2bd310";
+      const apiKey = "your apikey";
       const url = `https://pixabay.com/api/?key=${apiKey}&q=${search}&per_page=${imagesPerPage}&page=${curr_page}`;
       const response = await axios.get(url);
       handleImages(response.data.hits);
